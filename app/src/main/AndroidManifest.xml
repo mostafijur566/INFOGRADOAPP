@@ -9,8 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.INFOGRADOAPP">
-        <activity android:name=".SplashScreen"></activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".GradeComputation"></activity>
+        <activity android:name=".GuideLines" />
+        <activity android:name=".AboutActivity" />
+        <activity android:name=".StudentInfo" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
